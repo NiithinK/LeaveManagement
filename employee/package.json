@@ -33,6 +33,7 @@
       "react-app/jest"
     ]
   },
+<<<<<<< HEAD
  "scripts": {
   "preinstall": "npx npm-force-resolutions"
 },
@@ -40,6 +41,9 @@
   "ajv": "6.12.6",
   "ajv-keywords": "3.5.2"
 },
+=======
+
+>>>>>>> 65166c3553253b9374779ffbd6d03e09c26acef1
   "browserslist": {
     "production": [
       ">0.2%",
