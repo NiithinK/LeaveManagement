@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { AuthProvider } from "./context/Auth";
 import NavBar from "./components/NavBar";
@@ -21,8 +21,9 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/employee" element={<EmployeeDashboard />} />
-            <Route path="/admin" element={<AdminDashboard />} />
+            <Route path="/employee" element={<EmployeeDashboard />}/>
+            <Route path="/admin" element={ <AdminDashboard /> }
+            />
           </Routes>
         </div>
       </AuthProvider>
