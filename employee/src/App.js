@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-<style>
-@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-</style>
+
 
 import { AuthProvider } from "./context/Auth";
 import NavBar from "./components/NavBar";
